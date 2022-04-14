@@ -15,6 +15,7 @@ public class Livreur extends Individu {
 	
 	
 		}
+	
 		
 	private static ArrayList<Livreur> allLivreur;
 		
@@ -26,6 +27,8 @@ public class Livreur extends Individu {
 	public static void addLivreur(Livreur l) {
 		allLivreur.add(l);
 	}
+	
+	
 	
 	
 		

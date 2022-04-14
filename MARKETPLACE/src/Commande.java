@@ -139,46 +139,6 @@ public class Commande {
 		return allCommande.get(indice);
 	}
 	
-
-	
-
-	/*
-	public static void chargementCommande() {
-			
-			File file = new File("h://Desktop/_documents/codeText/progJava/javaProj/TD/src/PROJETJAVA/fichierCommande.txt");
-			
-			try {
-				FileReader reader = new FileReader(file);
-				BufferedReader bfr = new BufferedReader(reader);
-				
-				String line = bfr.readLine();
-				
-				String[] tabCommande = line.split(";");
-				
-				while( (line = bfr.readLine() ) != null) {
-					
-					String nom = tabProduit[0];
-					int prix = Integer.parseInt(tabProduit[1]);
-					String categorie = tabProduit[2];
-					String estimation = tabProduit[3];
-					String idVendeur = tabProduit[4];
-					String description = tabProduit[5];
-
-					
-					Commande p = new Commande(nom, prix, categorie, estimation, idVendeur, description);
-					
-					Commande.addCommande(p);
-					
-				}
-				bfr.close();
-			}
-			 catch (IOException e) {
-				e.printStackTrace();
-			}	*/
-		
-	
-
-
 	
 }
 

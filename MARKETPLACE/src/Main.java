@@ -29,18 +29,18 @@ public class Main {
 		 
 		 //Client.seCreerUnCompte();    /*ici on teste la creation d'un compte client*/
 		 //Client.sidentifier("will", "tutu");  /*on renvoie le message d'ereur car ce compte n'existe pas*/
-		 int q = Client.sidentifier("sharon7","asz4gl");  /*cette ligne ne doit pas être cachée pour la suite*/
+		// int q = Client.sidentifier("sharon7","asz4gl");  /*cette ligne ne doit pas être cachée pour la suite*/
 		 //System.out.println(q);   /*on affiche bien 1 qui est l'indice du deuxième vendeur*/
 		 //Client.getClient(q).faireUneCommande();
-		Client.getClient(q).seConnecter();  /*connexion, la ligne doit rester ouverte*/
-		Produit.AfficherProduitDisponible();
-		 Client.getClient(q).faireUneCommande();
-		 Client.getClient(q).faireUneCommande();
+		//Client.getClient(q).seConnecter();  /*connexion, la ligne doit rester ouverte*/
+		//Produit.AfficherProduitDisponible();
+		// Client.getClient(q).faireUneCommande();
+		// Client.getClient(q).faireUneCommande();
 
-		 Client.getClient(q).faireUneCommande();
+		 //Client.getClient(q).faireUneCommande();
 
-		 System.out.println(Commande.getNbCommande());
-		Client.getClient(q).consulterCommande();
+		// System.out.println(Commande.getNbCommande());
+		//Client.getClient(q).consulterCommande();
 		
 		 
 
