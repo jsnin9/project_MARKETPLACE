@@ -1,5 +1,14 @@
 # project_MARKETPLACE
 
+
+Membre du groupe
+
+* Elias Ait-Bouali
+* Mucas Taloub
+* Mathis Rellier
+* Killian Guelou
+* OKON N'Guessan
+
 Ce document est une aide à la compréhension de nos programmes. Les principales classes que nous avons implémenter sont : MARKETPLACE , CLIENT, VENDEUR, CONTRAT, COMMANDE, PRODUIT
 
 Nous passons à la phase de test des différentes fonctionnalité requises pour chaque classe.
