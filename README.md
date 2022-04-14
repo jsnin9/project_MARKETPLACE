@@ -44,5 +44,7 @@ Le principe est le même que précédemment. Il se créer un compte, s’identif
 Il pourra faire une commande.
 D’abord on affiche la liste de tous les produits avec la méthode statique de PRODUIT.
 
+La marketplace peut aussi publier des produits. Pour ceux ci, idVendeur = null;
+
 
 
