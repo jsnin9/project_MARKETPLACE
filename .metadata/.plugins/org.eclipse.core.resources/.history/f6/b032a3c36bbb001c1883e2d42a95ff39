@@ -1,0 +1,62 @@
+ 
+public class Main {
+
+	public static void main(String[] args) throws NosExceptions {
+	
+
+
+		
+	
+		/*Client.seCreerUnCompte();*/
+		/*
+		Client.getClient(0).seConnecter("okon7", "okon7");
+		ProduitExterne.AfficherProduitDisponible();
+		Client.getClient(0).FaireUneCommande();
+		Client.getClient(0).consulterCommande();
+		System.out.println(Client.getClient(0).getIdIndividu());
+
+		/*
+		Vendeur.getVendeur(0).publierProduit();
+		System.out.println(Client.getNbClient());
+		Client.getClient(0).seConnecter("edrfgth", "fgh");
+		ProduitExterne.AfficherProduitDisponible();
+		Client.getClient(0).FaireUneCommande();
+		Client.getClient(0).consulterCommande();
+		
+		Vendeur.faireUnContrat();
+		
+		System.out.println(Vendeur.getNbVendeur());	
+		System.out.println(Vendeur.getVendeur(0).getadresse());
+		
+		System.out.println(Vendeur.getVendeur(0).getPseudo());
+		System.out.println(Vendeur.getVendeur(0).getPassword());
+		
+		Vendeur.getVendeur(0).seConnecter("jsnin9", "okxx");
+		
+			
+		Vendeur.getVendeur(0).publierProduit();
+*/
+		
+		Fichier.initFichier();
+		
+		Fichier.chargementIndividu();
+		Fichier.chargementContrat();
+		
+		
+		
+		 //Vendeur.faireUnContrat();    /*ici on teste la creation d'un compte vendeur*/
+		  
+		 //Vendeur.sidentifier("will", "tutu");  /*on renvoie le message d'ereur car ce compte n'existe pas*/
+		
+		 int p = Vendeur.sidentifier("gis.com", "zik74x");
+		 System.out.println(p);
+		 
+		
+
+		
+		
+		
+		
+		Fichier.actualisation();
+	}}
+

@@ -1,0 +1,13 @@
+ 
+public class Livreur extends Individu {
+	
+	private String idLivreur
+
+	Livreur(String nom, String prenom, String adresse, String telephone, String email) {
+		super(nom, prenom, adresse, telephone, email);
+		
+	}
+	
+	
+
+}
